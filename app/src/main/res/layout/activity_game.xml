@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey_400"
+    android:background="@color/teal_100"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     tools:context=".GameActivity">
@@ -22,15 +22,15 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="@color/light_blue_200"
+            android:textColor="@color/teal_200"
             android:textSize="@dimen/large_text_size"
             android:textStyle="bold"
-            custom:bottomBevelColor="@color/blue_grey_700"
+            custom:bottomBevelColor="@color/teal_700"
             custom:fillPercentage="0.75"
-            custom:innerRectColor="@color/blue_grey_900"
-            custom:leftBevelColor="@color/blue_grey_300"
-            custom:rightBevelColor="@color/blue_grey_500"
-            custom:topBevelColor="@color/blue_grey_400" />
+            custom:innerRectColor="@color/teal_900"
+            custom:leftBevelColor="@color/teal_300"
+            custom:rightBevelColor="@color/teal_500"
+            custom:topBevelColor="@color/teal_400" />
 
         <ImageView
             android:id="@+id/status_image_view"
@@ -48,12 +48,12 @@
             android:textColor="@color/red_600"
             android:textSize="@dimen/large_text_size"
             android:textStyle="bold"
-            custom:bottomBevelColor="@color/blue_grey_700"
+            custom:bottomBevelColor="@color/teal_700"
             custom:fillPercentage="0.75"
-            custom:innerRectColor="@color/blue_grey_900"
-            custom:leftBevelColor="@color/blue_grey_300"
-            custom:rightBevelColor="@color/blue_grey_500"
-            custom:topBevelColor="@color/blue_grey_400" />
+            custom:innerRectColor="@color/teal_900"
+            custom:leftBevelColor="@color/teal_300"
+            custom:rightBevelColor="@color/teal_500"
+            custom:topBevelColor="@color/teal_400" />
     </LinearLayout>
 
     <minesweeper.mustafa.minesweeper.board.BoardLayoutView
@@ -84,12 +84,12 @@
             android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="@dimen/medium_text_size"
-            custom:bottomBevelColor="@color/blue_grey_700"
+            custom:bottomBevelColor="@color/teal_700"
             custom:fillPercentage="0.75"
-            custom:innerRectColor="@color/blue_grey_500"
-            custom:leftBevelColor="@color/blue_grey_300"
-            custom:rightBevelColor="@color/blue_grey_600"
-            custom:topBevelColor="@color/blue_grey_400" />
+            custom:innerRectColor="@color/teal_500"
+            custom:leftBevelColor="@color/teal_300"
+            custom:rightBevelColor="@color/teal_600"
+            custom:topBevelColor="@color/teal_400" />
 
         <minesweeper.mustafa.minesweeper.view.BeveledTileButton
             android:id="@+id/finish_button"
@@ -101,12 +101,12 @@
             android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="@dimen/medium_text_size"
-            custom:bottomBevelColor="@color/blue_grey_700"
+            custom:bottomBevelColor="@color/teal_700"
             custom:fillPercentage="0.75"
-            custom:innerRectColor="@color/blue_grey_600"
-            custom:leftBevelColor="@color/blue_grey_300"
-            custom:rightBevelColor="@color/blue_grey_500"
-            custom:topBevelColor="@color/blue_grey_400" />
+            custom:innerRectColor="@color/teal_600"
+            custom:leftBevelColor="@color/teal_300"
+            custom:rightBevelColor="@color/teal_500"
+            custom:topBevelColor="@color/teal_400" />
 
     </LinearLayout>
 </RelativeLayout>
