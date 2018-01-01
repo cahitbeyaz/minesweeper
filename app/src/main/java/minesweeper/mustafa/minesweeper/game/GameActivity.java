@@ -94,8 +94,8 @@ public class GameActivity extends AppCompatActivity implements GameManager.Liste
 
     private void setupStatusImageView() {
         float fillPercent = 0.8f;
-        int inPlayOuter = getResources().getColor(R.color.blue_grey_300);
-        int inPlayInner = getResources().getColor(R.color.blue_grey_600);
+        int inPlayOuter = getResources().getColor(R.color.teal_300);
+        int inPlayInner = getResources().getColor(R.color.teal_600);
 
         mStatusImageDrawable = new LevelListDrawable();
         mStatusImageDrawable.addLevel(0, IN_PLAY_LEVEL, new ConcentricCirclesDrawable(new int[]{inPlayOuter, inPlayInner}, fillPercent));

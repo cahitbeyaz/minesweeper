@@ -100,11 +100,11 @@ public class TileView extends View {
 
     private Drawable setupCoveredTile() throws InvalidArgumentException {
         // TODO: Move this to a theme
-        int colorInner = GraphicsUtils.getColor(getContext(), R.color.blue_grey_200);
-        int colorTop = GraphicsUtils.getColor(getContext(), R.color.blue_grey_300);
-        int colorLeft = GraphicsUtils.getColor(getContext(), R.color.blue_grey_400);
-        int colorBottom = GraphicsUtils.getColor(getContext(), R.color.blue_grey_500);
-        int colorRight = GraphicsUtils.getColor(getContext(), R.color.blue_grey_600);
+        int colorInner = GraphicsUtils.getColor(getContext(), R.color.teal_200);
+        int colorTop = GraphicsUtils.getColor(getContext(), R.color.teal_300);
+        int colorLeft = GraphicsUtils.getColor(getContext(), R.color.teal_400);
+        int colorBottom = GraphicsUtils.getColor(getContext(), R.color.teal_500);
+        int colorRight = GraphicsUtils.getColor(getContext(), R.color.teal_600);
 
         int[] tileColors = new int[]{colorInner, colorLeft, colorTop, colorRight, colorBottom};
 
