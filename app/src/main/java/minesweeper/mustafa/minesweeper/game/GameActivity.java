@@ -48,12 +48,30 @@ public class GameActivity extends AppCompatActivity implements GameManager.Liste
         setContentView(R.layout.activity_game);
         ButterKnife.bind(this);
 
+        switch (GameOptions.gameLevel){
+            case Easy:
+                mDimension=8;
+                mNumMines=8;
+                break;
+            case Medium:
+                mDimension=9;
+                mNumMines=10;
+                break;
+            case Hard:
+                mDimension=9;
+                mNumMines=12;
+                break;
+        }
+
         setupViews();
         setupGame();
     }
 
     private void setupGame() {
         try {
+
+
+
             mGameManager = new GameManager(mDimension, mNumMines, mBoardLayoutView, this);
         }
         catch (Exception e) {
@@ -184,4 +202,5 @@ public class GameActivity extends AppCompatActivity implements GameManager.Liste
     public void onGameFinished() {
         stopTimer();
     }
+
 }

@@ -14,7 +14,6 @@ public class GameManager{
 
     public GameManager(int dimension, int numMines, BoardLayoutView boardLayoutView, Listener listener) throws
             InvalidArgumentException, InitializationException {
-
         mBoardLayoutView = boardLayoutView;
         mListener = listener;
 

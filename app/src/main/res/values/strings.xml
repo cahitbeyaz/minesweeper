@@ -7,7 +7,24 @@
     <string name="board_initialization_error">There was a problem setting up the game</string>
     <string name="finish_button">finish</string>
     <string name="reset_button">reset</string>
+    <string name="start_button">start game</string>
+
     <string name="game_reset_error">There was a problem resetting the game</string>
     <string name="win_message">You won!</string>
     <string name="loss_message">You lost!</string>
+    <string-array name="planets_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="sound_array">
+        <item>Sound ON</item>
+        <item>Sound OFF</item>
+    </string-array>
+    <string-array name="start_game">
+        <item>Start</item>
+
+    </string-array>
+
 </resources>
